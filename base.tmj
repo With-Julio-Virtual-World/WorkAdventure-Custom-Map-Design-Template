@@ -456,7 +456,24 @@
          "draworder":"topdown",
          "id":2,
          "name":"floorLayer",
-         "objects":[],
+         "objects":[
+                {
+                 "height":32,
+                 "id":20,
+                 "name":"startArea",
+                 "properties":[
+                        {
+                         "name":"start",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":32,
+                 "x":191,
+                 "y":135
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -544,7 +561,7 @@
          "y":0
         }],
  "nextlayerid":80,
- "nextobjectid":20,
+ "nextobjectid":21,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -560,12 +577,12 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"office.png"
+         "value":"base.png"
         }, 
         {
          "name":"mapName",
          "type":"string",
-         "value":"Office"
+         "value":"Base"
         }, 
         {
          "name":"script",
